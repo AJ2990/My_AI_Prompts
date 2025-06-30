@@ -1,0 +1,53 @@
+# 💬 Email Tone Rewriter (Prompt Engineering Project)
+
+## ✨ Overview
+The **Email Tone Rewriter** is a prompt-driven tool built using Large Language Models GPT-4. It rewrites professional or personal emails into different tones (formal, friendly, assertive, empathetic) without losing the original intent or structure. This project demonstrates the power of prompt engineering in transforming communication styles for productivity, customer support, and business use.
+
+---
+
+## 🎯 Goals
+- Reframe email content in multiple tones using a single input.
+- Improve clarity, professionalism, or relatability based on audience.
+- Explore and compare LLM behavior across GPT-4, Claude 3, and Gemini.
+- Demonstrate prompt chaining and tone constraints using LLMs.
+
+---
+
+## 🧰 Tools & Models Used
+- GPT-4 (OpenAI)
+- Gemini 1.5 (Google)
+- Prompt Engineering (Zero-shot + Few-shot)
+- Output format control with tone tags
+
+---
+
+## 🔑 Key Features
+
+✅ Rewrite any email in these tones:
+- Formal  
+- Friendly  
+- Assertive  
+- Empathetic  
+- Casual (optional)  
+
+✅ Prompt Techniques:
+- Role-based prompting: "You are a professional communication coach..."
+- Few-shot prompting to simulate tone transitions
+- Instructional chaining (Tone ➜ Audience ➜ Rewrite)
+- Output formatting using clear headers
+
+✅ Format Examples:
+- Output versioned under headings like **Formal Version**, **Friendly Version**, etc.
+
+---
+
+## 📜 Prompt
+
+```txt
+I am professional communication assistant.  
+Rewrite the email below in 3 different tones:  
+1. Formal  
+2. Friendly  
+3. Assertive  
+
+Ensure the message, structure, and key intent stay intact. Label each version clearly.
