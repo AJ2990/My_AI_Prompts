@@ -1,0 +1,58 @@
+# 🧠 AI Resume Analyzer (Prompt Engineering Project)
+
+## ✨ Overview
+The **AI Resume Analyzer** is a prompt-engineered tool designed to evaluate resumes using Large Language Models GPT-4. It analyzes resumes across multiple dimensions—formatting, skills relevance, clarity—and delivers structured, personalized feedback in formats like bullet points and JSON.
+
+---
+
+## 🎯 Goals
+- Automate resume screening using AI
+- Provide clear, consistent feedback for job-seekers
+- Help recruiters and candidates improve resume quality
+- Showcase the power of LLM prompt design in real-world use cases
+
+---
+
+## 🧰 Tools & Models Used
+- GPT-4 (OpenAI)
+- Claude 3 (Anthropic)
+- Notion (for demo/testing)
+- Prompt Chaining Techniques
+- Format control with JSON + tables
+
+---
+
+## 🛠 Features
+✅ Score resumes on:
+- Formatting  
+- Skills Relevance  
+- Language Clarity  
+
+✅ Output Types:
+- Bullet point feedback  
+- Structured JSON format  
+- Optional scoring breakdown  
+
+✅ Prompt Techniques:
+- Role-based prompting ("You are a resume review expert...")
+- Few-shot prompting (to show example feedback)
+- Format-constrained outputs
+- Persona tuning for tone (recruiter-friendly, technical, etc.)
+
+---
+
+## 📦 Prompt Sample
+
+```txt
+You are a professional resume reviewer.
+
+Analyze the following resume and provide:
+
+1. A summary of strengths
+2. Areas of improvement
+3. A numerical score (out of 10) for:
+   - Formatting
+   - Skills Relevance
+   - Language Clarity
+
+Format the output in bullet points. Use clear headings. Do not include personal opinions.
