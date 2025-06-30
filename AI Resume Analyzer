@@ -15,8 +15,6 @@ The **AI Resume Analyzer** is a prompt-engineered tool designed to evaluate resu
 
 ## 🧰 Tools & Models Used
 - GPT-4 (OpenAI)
-- Claude 3 (Anthropic)
-- Notion (for demo/testing)
 - Prompt Chaining Techniques
 - Format control with JSON + tables
 
@@ -41,10 +39,10 @@ The **AI Resume Analyzer** is a prompt-engineered tool designed to evaluate resu
 
 ---
 
-## 📦 Prompt Sample
+## 📦 Prompt
 
 ```txt
-You are a professional resume reviewer.
+I am professional resume reviewer.
 
 Analyze the following resume and provide:
 
